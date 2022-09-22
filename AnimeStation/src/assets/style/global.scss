@@ -1,0 +1,28 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --bg-color: #1e1d2b;
+    --navbar-color: #2f3042;
+    --component-color: #222433;
+    --defalut-radius: 24px;
+    --general-font-color: rgba(255, 255, 255, 0.63);
+    --view-Width: 100%;
+}
+
+body {
+    background-color: var(--bg-color);
+    overflow: hidden;
+}
+
+#app {
+    font-family: Avenir, Helvetica, Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-align: center;
+    height: 100vh;
+    font-size: 16px;
+}
