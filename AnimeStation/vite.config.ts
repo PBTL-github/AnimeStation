@@ -20,6 +20,7 @@ export default defineConfig({
     alias: {
       "@": resolve("./src"),
       "@style": resolve("./src/assets/style"),
+      "@picture": resolve("./src/assets/picture"),
     },
   },
 });

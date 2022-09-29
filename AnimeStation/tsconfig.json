@@ -16,9 +16,10 @@
     "baseUrl": ".",
     "paths": {
       "@/*": ["src/*"],
-      "@style/*": ["./src/assets/style/*"]
+      "@style/*": ["./src/assets/style/*"],
+      "@picture/*": ["./src/assets/picture/*"]
     },
-    "types": ["element-plus/global"]
+    "types": ["element-plus/global", "vite/client"]
   },
   "include": ["src/**/*.ts", "src/**/*.d.ts", "src/**/*.tsx", "src/**/*.vue"],
   "references": [{ "path": "./tsconfig.node.json" }]
