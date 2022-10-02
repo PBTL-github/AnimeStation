@@ -58,7 +58,7 @@ const isArrow: Ref<boolean> = ref(true);
   <div
     class="navbar-wrapper"
     :style="{
-      minWidth: isArrow ? '280px' : '60px',
+      width: isArrow ? '306px' : '60px',
     }"
   >
     <Transition name="navbar-show">
